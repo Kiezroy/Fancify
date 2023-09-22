@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Fancify Shamcify</title>
+
+	<!-- link to your script file here -->
+	<!--JS File Doesn't work when linked in the head section, works in body section-->
+
+</head>
+
+<body>
+	<h1>Fancify my Text</h1>
+
+	<!-- Your UI controls go here -->
+
+	<fieldset>
+		<legend>Text</legend>
+		<textarea id="largeTextArea" name="largeText" rows="4" cols="30"></textarea>
+	</fieldset>
+
+	<fieldset>
+		<legend>Fancify</legend>
+		<button id="biggerButton">Bigger!</button>
+
+		<button id="Moo">Moo</button><br>
+
+		<input type="radio" id="fancy" name="style" onchange="changeFont('bold')">
+		<label for="fancy">FancyShmancy</label>
+
+		<input type="radio" id="boring" name="style" onchange="changeFont('normal')">
+		<label for="boring">BoringBetty</label>
+
+
+
+	</fieldset>
+
+	<script src="fancifymytext.js"></script>
+</body>
+
+</html>
